@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./components/Button";
-import Input from "./components/Input";
+import Button from "./components/reusable/Button";
+import Input from "./components/reusable/Input";
 import "./App.css";
 
 function App() {
