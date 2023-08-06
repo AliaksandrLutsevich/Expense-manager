@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Input type="text" placeholder="Enter value" className="mb-2" />
+      <Input type="number" placeholder="Enter value" className="mb-2" />
       <Button onClick={() => console.log("Added")}>Add</Button>
       <TransactionList transactions={transactionsData} />
     </div>
