@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Input type="number" placeholder="Enter value" className="mb-2" />
       <Button onClick={() => console.log("Added")}>Add</Button>
-      <TransactionList transactions={transactionsData} />
+      <TransactionList transactions={transactionsData} itemsPerPage={10} />
     </div>
   );
 }

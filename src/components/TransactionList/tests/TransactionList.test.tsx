@@ -8,18 +8,18 @@ describe("TransactionList", () => {
       id: 1,
       description: "Food",
       amount: -100,
-      date: "2023-08-02",
+      date: "2023-08-01",
     },
     {
       id: 2,
       description: "Salary",
       amount: 500,
-      date: "2023-08-01",
+      date: "2023-08-02",
     },
   ];
 
   it("renders transaction data correctly", () => {
-    render(<TransactionList transactions={transactions} />);
+    render(<TransactionList transactions={transactions} itemsPerPage={10} />);
 
     transactions.forEach((transaction) => {
       expect(screen.getByText(transaction.id.toString())).toBeInTheDocument();
