@@ -4,3 +4,5 @@ type Transaction = {
   amount: number;
   date: string;
 };
+
+export default Transaction;
