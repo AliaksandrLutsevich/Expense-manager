@@ -32,7 +32,7 @@ const TransactionList: React.FC<TransactionListProps> = ({
           <thead>
             <tr>
               <th className="px-4 py-2">ID</th>
-              <th className="px-4 py-2">Desctiprion</th>
+              <th className="px-4 py-2">Description</th>
               <th className="px-4 py-2">Sum</th>
               <th className="px-4 py-2">Date</th>
             </tr>
