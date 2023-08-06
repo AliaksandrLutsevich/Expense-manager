@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./components/reusable/Button";
 import Input from "./components/reusable/Input";
-import TransactionList from "./components/TransactionList";
+import TransactionList from "./components/TransactionList/TransactionList";
 import transactionsData from "./mockups/transactions.json";
 import "./App.css";
 
