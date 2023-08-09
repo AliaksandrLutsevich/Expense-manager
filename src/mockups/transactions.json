@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 2,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 3,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 4,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 5,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 6,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 7,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 8,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 9,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 10,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 11,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 12,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 13,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 14,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 15,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 16,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 17,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 18,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 19,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 20,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 21,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 22,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 23,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 24,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 25,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 26,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 27,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 28,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 29,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 30,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 31,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 32,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 33,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 34,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 35,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 36,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 37,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 38,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 39,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 40,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 41,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 42,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 43,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 44,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 45,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 46,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 47,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 48,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 49,
+    "description": "Food",
+    "amount": -100,
+    "date": "2023-08-01"
+  },
+  {
+    "id": 50,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  },
+  {
+    "id": 51,
+    "description": "Salary",
+    "amount": 500,
+    "date": "2023-08-02"
+  }
+]
