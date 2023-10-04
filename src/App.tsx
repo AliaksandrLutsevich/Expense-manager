@@ -1,18 +1,39 @@
-import React from "react";
-import Button from "./components/reusable/Button";
-import Input from "./components/reusable/Input";
-import TransactionList from "./components/TransactionList/TransactionList";
-import transactionsData from "./mockups/transactions.json";
-import "./App.css";
+// // App.tsx
+// import React from "react";
+// import { Provider } from "react-redux";
+// import { store } from "./components/TransactionsCRUD/store";
+// import TransactionForm from "./components/TransactionsCRUD/TransactionForm";
+// import TransactionList from "./components/TransactionList/TransactionList";
 
-function App() {
+// const App = () => {
+//   return (
+//     <Provider store={store}>
+//       <div className="App">
+//         <TransactionForm />
+//         <TransactionList transactions={[]} itemsPerPage={10} />
+//       </div>
+//     </Provider>
+//   );
+// };
+
+// export default App;
+
+// App.tsx
+import React from "react";
+import { Provider } from "react-redux";
+import { store } from "./components/TransactionsCRUD/store";
+import TransactionForm from "./components/TransactionsCRUD/TransactionForm";
+import TransactionList from "./components/TransactionList/TransactionList";
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <Input type="number" placeholder="Enter value" className="mb-2" />
-      <Button onClick={() => console.log("Added")}>Add</Button>
-      <TransactionList transactions={transactionsData} itemsPerPage={10} />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <TransactionForm />
+        <TransactionList transactions={[]} itemsPerPage={10} />
+      </div>
+    </Provider>
   );
-}
+};
 
 export default App;

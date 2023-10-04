@@ -4,9 +4,17 @@ type InputProps = {
   type: string;
   placeholder?: string;
   className?: string;
+  value?: string | number;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  required?: boolean;
 };
 
-const Input: React.FC<InputProps> = ({ type, placeholder, className }) => {
+const Input: React.FC<InputProps> = ({
+  type,
+  placeholder,
+  className,
+  value,
+}) => {
   return (
     <input
       type={type}

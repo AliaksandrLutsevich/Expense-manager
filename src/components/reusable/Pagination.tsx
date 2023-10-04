@@ -16,6 +16,7 @@ const Pagination: React.FC<PaginationProps> = ({
     <div className="mt-4">
       {Array.from({ length: totalPages }, (_, index) => (
         <Button
+          type="submit"
           key={index}
           onClick={() => onPageChange(index + 1)}
           className={

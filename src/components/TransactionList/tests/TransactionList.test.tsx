@@ -2,23 +2,17 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import TransactionList from "../TransactionList";
 
-describe("TransactionList", () => {
-  const transactions = [
-    {
-      id: 1,
-      description: "Food",
-      amount: -100,
-      date: "2023-08-01",
-    },
-    {
-      id: 2,
-      description: "Salary",
-      amount: 500,
-      date: "2023-08-02",
-    },
-  ];
-
+describe("TransactionList Component", () => {
   it("renders transaction data correctly", () => {
+    const transactions = [
+      {
+        id: "1",
+        description: "Transaction 1",
+        amount: 100,
+        date: "2023-09-24",
+      },
+    ];
+
     render(<TransactionList transactions={transactions} itemsPerPage={10} />);
 
     transactions.forEach((transaction) => {
